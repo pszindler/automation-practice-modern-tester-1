@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5975e660-b8b1-437a-9aed-ec11e37319cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/files/test-file-to-upload.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AccordionPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AlertsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AutocompletePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DragAndDropPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DraggablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/FormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/IframePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ResizablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/RowPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SelectablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SortablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/TablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/WindowPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/junit-platform.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basicTestModule/AlertsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basicTestModule/FormPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basicTestModule/IframePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basicTestModule/TablePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basicTestModule/WindowPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/interactionsTestModule/DragAndDropPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/interactionsTestModule/DraggablePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/interactionsTestModule/ResizablePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/interactionsTestModule/SelectablePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/interactionsTestModule/SortablePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgetsTestModule/AccordionPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgetsTestModule/AutocompletePageTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="5975e660-b8b1-437a-9aed-ec11e37319cf" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,6 +143,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662980016921</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1663079178377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663079178377</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,5 +163,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
