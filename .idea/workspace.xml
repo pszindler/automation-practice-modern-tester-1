@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5975e660-b8b1-437a-9aed-ec11e37319cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/files/test-file-to-upload.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AccordionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AlertsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AutocompletePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DragAndDropPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DraggablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/FormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/IframePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ResizablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/RowPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SelectablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SortablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/TablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/WindowPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/junit-platform.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/basicTestModule/AlertsPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/basicTestModule/FormPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/basicTestModule/IframePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/basicTestModule/TablePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/basicTestModule/WindowPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactionsTestModule/DragAndDropPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactionsTestModule/DraggablePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactionsTestModule/ResizablePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactionsTestModule/SelectablePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactionsTestModule/SortablePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/widgetsTestModule/AccordionPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/widgetsTestModule/AutocompletePageTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EfI3wkMc2Xn1jZW62m7LisQ2qg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccordionPageTest.test">
+    <configuration name="AccordionPageTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-practice-modern-tester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="widgetsTestModule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="widgetsTestModule" />
+      <option name="MAIN_CLASS_NAME" value="widgetsTestModule.AccordionPageTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DragAndDropPageTest.dragAndDropTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-practice-modern-tester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interactionsTestModule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="interactionsTestModule" />
+      <option name="MAIN_CLASS_NAME" value="interactionsTestModule.DragAndDropPageTest" />
+      <option name="METHOD_NAME" value="dragAndDropTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResizablePageTest.resizableSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-practice-modern-tester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interactionsTestModule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="interactionsTestModule" />
+      <option name="MAIN_CLASS_NAME" value="interactionsTestModule.ResizablePageTest" />
+      <option name="METHOD_NAME" value="resizableSquare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectablePageTest.selectableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-practice-modern-tester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interactionsTestModule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="interactionsTestModule" />
+      <option name="MAIN_CLASS_NAME" value="interactionsTestModule.SelectablePageTest" />
+      <option name="METHOD_NAME" value="selectableTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortablePageTest.shuffleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-practice-modern-tester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interactionsTestModule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="interactionsTestModule" />
+      <option name="MAIN_CLASS_NAME" value="interactionsTestModule.SortablePageTest" />
+      <option name="METHOD_NAME" value="shuffleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccordionPageTest.test" />
+        <item itemvalue="JUnit.SortablePageTest.shuffleTest" />
+        <item itemvalue="JUnit.SelectablePageTest.selectableTest" />
+        <item itemvalue="JUnit.ResizablePageTest.resizableSquare" />
+        <item itemvalue="JUnit.DragAndDropPageTest.dragAndDropTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5975e660-b8b1-437a-9aed-ec11e37319cf" name="Changes" comment="" />
+      <created>1662980016921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662980016921</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
