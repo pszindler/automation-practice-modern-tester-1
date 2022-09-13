@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5975e660-b8b1-437a-9aed-ec11e37319cf" name="Changes" comment="commit" />
+    <list default="true" id="5975e660-b8b1-437a-9aed-ec11e37319cf" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/AutocompletePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AutocompletePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/widgetsTestModule/AutocompletePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/widgetsTestModule/AutocompletePageTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +46,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccordionPageTest.test">
+  <component name="RunManager" selected="JUnit.AutocompletePageTest.test">
     <configuration name="AccordionPageTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-practice-modern-tester" />
       <extension name="coverage">
@@ -60,17 +63,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DragAndDropPageTest.dragAndDropTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutocompletePageTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-practice-modern-tester" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interactionsTestModule.*" />
+          <option name="PATTERN" value="widgetsTestModule.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="interactionsTestModule" />
-      <option name="MAIN_CLASS_NAME" value="interactionsTestModule.DragAndDropPageTest" />
-      <option name="METHOD_NAME" value="dragAndDropTest" />
+      <option name="PACKAGE_NAME" value="widgetsTestModule" />
+      <option name="MAIN_CLASS_NAME" value="widgetsTestModule.AutocompletePageTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AutocompletePageTest.test" />
         <item itemvalue="JUnit.AccordionPageTest.test" />
         <item itemvalue="JUnit.SortablePageTest.shuffleTest" />
         <item itemvalue="JUnit.SelectablePageTest.selectableTest" />
         <item itemvalue="JUnit.ResizablePageTest.resizableSquare" />
-        <item itemvalue="JUnit.DragAndDropPageTest.dragAndDropTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663079178377</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1663079203323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663079203323</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
