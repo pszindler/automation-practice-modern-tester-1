@@ -17,23 +17,29 @@ public class AutocompletePage extends BasePage {
 
     @FindBy(xpath = "//body/ul/li[@class='ui-menu-item']")
     private List<WebElement> autoSuggest;
+    private WebElement selectedRandomOption;
 
-    public void sendKeys(String text) {
+    public AutocompletePage sendKeys(String text) {
         inputSearch.sendKeys(text);
+        return this;
     }
 
-    public void printAutoSuggest() {
-        for (WebElement suggest: autoSuggest) {
-            System.out.println(suggest.getText());
-        }
+    public AutocompletePage printAutoSuggest() {
+        autoSuggest.forEach(suggest -> System.out.println(suggest.getText()));
+        return this;
     }
 
-    public void selectRandomOption() {
-
+    public AutocompletePage selectRandomOption() {
+        selectedRandomOption = autoSuggest.get(generateRandomValue(autoSuggest));
+        selectedRandomOption.click();
+        return this;
     }
 
     public String getInputSearchValue() {
         return inputSearch.getText();
     }
 
+    public WebElement getSelectedRandomOption() {
+        return selectedRandomOption;
+    }
 }
