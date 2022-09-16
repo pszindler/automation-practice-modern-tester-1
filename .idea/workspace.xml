@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5975e660-b8b1-437a-9aed-ec11e37319cf" name="Changes" comment="autosuggest">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DatePickerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DialogPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/MenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ProgressBarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SelectMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SliderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/TooltipPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgetsTestModule/DatePickerPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgetsTestModule/DialogPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgetsTestModule/MenuPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgetsTestModule/ProgressBarPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgetsTestModule/SelectMenuPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgetsTestModule/SliderPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgetsTestModule/TooltipPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HighSitePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/otherTests/HighSitePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/AutocompletePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AutocompletePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/widgetsTestModule/AutocompletePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/widgetsTestModule/AutocompletePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/DatePickerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DatePickerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/widgetsTestModule/DatePickerPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/widgetsTestModule/DatePickerPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +49,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatePickerPageTest.todayTest">
+  <component name="RunManager" selected="JUnit.HighSitePageTest.scrollTest">
     <configuration name="DatePickerPageTest.firstDayNextMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-practice-modern-tester" />
       <extension name="coverage">
@@ -110,6 +98,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HighSitePageTest.scrollTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-practice-modern-tester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="otherTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="otherTests" />
+      <option name="MAIN_CLASS_NAME" value="otherTests.HighSitePageTest" />
+      <option name="METHOD_NAME" value="scrollTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SliderPageTest.testSlider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-practice-modern-tester" />
       <extension name="coverage">
@@ -126,29 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TooltipPageTest.tooltipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation-practice-modern-tester" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="widgetsTestModule.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="widgetsTestModule" />
-      <option name="MAIN_CLASS_NAME" value="widgetsTestModule.TooltipPageTest" />
-      <option name="METHOD_NAME" value="tooltipTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HighSitePageTest.scrollTest" />
         <item itemvalue="JUnit.DatePickerPageTest.todayTest" />
         <item itemvalue="JUnit.DatePickerPageTest.firstDayNextMonth" />
         <item itemvalue="JUnit.DatePickerPageTest.test" />
         <item itemvalue="JUnit.SliderPageTest.testSlider" />
-        <item itemvalue="JUnit.TooltipPageTest.tooltipTest" />
       </list>
     </recent_temporary>
   </component>
@@ -214,14 +202,14 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/widgetsTestModule/DatePickerPageTest.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="47" />
+          <url>file://$PROJECT_DIR$/src/test/java/otherTests/HighSitePageTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/widgetsTestModule/DatePickerPageTest.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="48" />
+          <url>file://$PROJECT_DIR$/src/test/java/otherTests/HighSitePageTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
